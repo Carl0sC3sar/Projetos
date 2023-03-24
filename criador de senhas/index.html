@@ -9,15 +9,15 @@
 </head>
 <body>
     <img class="logo" src="./logo.png" alt="Gerador de Senhas">
-    <main class="container-input ">
+    <div class="container-input ">
         <span>Tamanho <span id="valor"></span> caracteres</span>
         <input  id="slider" class="slider" 
         type="range" min="5" max="25" value="15">
         <button id="button" class="button-cto" onclick="generatePassword()">Gerar senhas</button>
-    </main>
+    </div>
 
 
-    <div id="container-password" onclick="copyPassword()" class="container-password hide">
+    <div id="container-password" onclick="copyPassword()" class="container-passWord hide">
         <span class="title"> Sua senha gerada</span>
         <span id="password" class="password">18888289910001</span>
         <span class="tooltip">Clique na senha para Copiar</span>
